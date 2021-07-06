@@ -1,15 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif;
-    line-height: 1.5em;
 }
 h1{
     font-size: 44px;
+    line-height: 1.2em;
 }
 .orange-text{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
     padding: 50px 20px;
 }
@@ -41,4 +41,29 @@ section{
     font-weight: 700;
     border-radius: 500px;
     color: white;
+}
+
+.experience-item{
+    width: 45%;
+    margin: 0% 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px #00000050;
+    border-radius: 10px;
+}
+
+#special-border{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, tomato );
+    border-image-slice: 1;
+}
+
+.footer{
+    padding: 10px 20px;
+    background-color:black;
+}
+
+.footer p{
+    color: #e1e1e1;
+    text-align: center;
+    font-weight: 200;
 }
